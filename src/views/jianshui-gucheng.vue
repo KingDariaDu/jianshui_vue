@@ -1,13 +1,13 @@
 <script lang="ts" setup>
 const doufu = [
-  '/src/images/food/doufu1.png',
-  '/src/images/food/doufu2.png',
-  '/src/images/food/doufu3.png'
+  './src/images/food/doufu1.png',
+  './src/images/food/doufu2.png',
+  './src/images/food/doufu3.png'
 ];
 const shizigao = [
-  '/src/images/food/shizigao1.png',
-  '/src/images/food/shizigao2.png',
-  '/src/images/food/shizigao3.png',
+  './src/images/food/shizigao1.png',
+  './src/images/food/shizigao2.png',
+  './src/images/food/shizigao3.png',
   // '/src/images/food/shizigao4.png'
 ]
 

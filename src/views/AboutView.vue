@@ -1,19 +1,19 @@
 <script lang="ts" setup>
 const imgList = [
-  '/src/images/Carousel/item1.png',
-  '/src/images/Carousel/item2.png',
-  '/src/images/Carousel/item3.png',
-  '/src/images/Carousel/item4.png'
+  './src/images/Carousel/item1.png',
+  './src/images/Carousel/item2.png',
+  './src/images/Carousel/item3.png',
+  './src/images/Carousel/item4.png'
 ];
 const ZitaoList = [
-  '/src/images/Zitao/1.png',
-  '/src/images/Zitao/2.png',
-  '/src/images/Zitao/3.png',
-  '/src/images/Zitao/4.png',
-  '/src/images/Zitao/5.png',
-  '/src/images/Zitao/6.png',
-  '/src/images/Zitao/7.png',
-  '/src/images/Zitao/8.png'
+  './src/images/Zitao/1.png',
+  './src/images/Zitao/2.png',
+  './src/images/Zitao/3.png',
+  './src/images/Zitao/4.png',
+  './src/images/Zitao/5.png',
+  './src/images/Zitao/6.png',
+  './src/images/Zitao/7.png',
+  './src/images/Zitao/8.png'
 ];
 </script>
 
@@ -31,25 +31,25 @@ const ZitaoList = [
 <el-row :gutter="30">
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/1.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/1.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/2.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/2.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/3.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/3.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/4.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/4.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
@@ -57,25 +57,25 @@ const ZitaoList = [
 <el-row :gutter="30">
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/5.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/5.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/6.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/6.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/7.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/7.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
   <el-col :span="6">
     <div class="grid-content ep-bg-purple">
-      <el-image style="width: auto;" src="/src/images/Zitao/8.png" :zoom-rate="1.2" :max-scale="7"
+      <el-image style="width: auto;" src="./src/images/Zitao/8.png" :zoom-rate="1.2" :max-scale="7"
         :min-scale="0.2" :initial-index="4" fit="cover" :preview-src-list="ZitaoList" />
     </div>
   </el-col>
